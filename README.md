@@ -25,6 +25,13 @@ python inference-script.py
 ├── silu_model.onnx
 ├── silu_model_fp16_converted.onnx
 ├── silu_model_int8.onnx
+Sample of results:
+        input  relu  relu_int8  silu  silu_int8  silu_model_fp16_converted
+0 -127.000000   0.0        0.0  -0.0        0.0                       -0.0
+1 -126.900002   0.0        0.0  -0.0        0.0                       -0.0
+2 -126.800003   0.0        0.0  -0.0        0.0                       -0.0
+3 -126.700005   0.0        0.0  -0.0        0.0                       -0.0
+4 -126.600006   0.0        0.0  -0.0        0.0                       -0.0
 ```
 
 
