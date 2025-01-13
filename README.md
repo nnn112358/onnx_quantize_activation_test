@@ -6,9 +6,9 @@ I investigated how the RELU and SILU of activation change with onnx's int8 quant
 
 ## Result
 
-<img width="651" alt="image" src="https://github.com/user-attachments/assets/3522f643-46a2-45ce-91ac-a97ee7730a64" />
 <img width="933" alt="image" src="https://github.com/user-attachments/assets/a529963d-791a-45ed-8fb1-8779196aa360" />
-
+<img width="651" alt="image" src="https://github.com/user-attachments/assets/3522f643-46a2-45ce-91ac-a97ee7730a64" />
+<img width="499" alt="image" src="https://github.com/user-attachments/assets/ccd4cd31-6bde-447d-93ac-49654dc234d2" />
 
 ```
 python pip install onnx onnxconverter-common
